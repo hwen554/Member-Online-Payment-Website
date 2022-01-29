@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
+      
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join us to become member and  meet more best friends
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -64,19 +65,20 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              AUCSS
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>AUCSS © 2022</small>
           <div class='social-icons'>
+            
             <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+                <i class='fab fa-facebook-f' />
             </Link>
             <Link
               class='social-icon-link instagram'
