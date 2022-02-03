@@ -11,3 +11,13 @@
     width: 280px;
     
 }
+
+.Pricing_container-card:nth-child(2){
+    transform: scale(1.05);
+    background:#242424;
+}
+.Pricing_container-card:hover{
+    transform: scale(1.06);
+    transition: all 0.3s ease-in-out;
+    background-color: #275afb;
+}
