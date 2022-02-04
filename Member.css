@@ -21,3 +21,10 @@
     transition: all 0.3s ease-in-out;
     background-color: #275afb;
 }
+
+.Pricing_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
