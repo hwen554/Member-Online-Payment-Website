@@ -1,72 +1,74 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {FaFire} from 'react-icons/fa';
+import { FaFireAlt } from 'react-icons/fa';
 
 import {Button} from './Button';
 
 
 function Member(){
     return (
-    <>
-    
-    <div>
-        <div className='Pricing_section'>
-            <div className='Pricing_wrapper'>
-                <h1 className='Pricing_heading'>Pricing</h1>
-                <div className='Pricing_container'>
-                    <Link to='/register' className='Pricing_container-card'>
-                        <div className='Pricing_container-cardInfo'>
-                            <div className='icon'>
-                                
+        <div>
+            <div className='pricing__section'>
+                <div className='pricing__wraaper'>
+                    <h1 className='pricing__heading'>Pricing</h1>
+                    <div className='pricing__container'>
+                        <Link to='/SignUp' className='pricing__container-card'>
+                            <div className='pricing__container-cardInfo'>
+                                <div className='icon'>
+                                    <FaFire/>
+                                </div>
+                                <h3>Member</h3>
+                                <h4>$3.99</h4>
+                                <h5>per month</h5>
+                                <ul className='pricing__container-features'>
+                                    <li>Free Activities</li>
+                                    <li>Merchants Preferential</li>
+                                </ul>
+                                <Button buttonSize='btn--wide' buttonColor='primary'>
+                                    Get this
+                                </Button>
                             </div>
-                            <h3>AUCSSMember</h3>
-                            <h4>$2.99</h4>
-                            <p>Per Month</p>
-                            <ul className='Pricing_container-features'>
-                                <li>商家折扣</li>
-                                <li>会员专属铭牌</li>
-                                <li>AUCSS活动免费参与</li>
-                            </ul>
-                            <Button buttonSize='btn--wide' buttonColor='primary'>CHOOSE</Button>
-                        </div>
-                    </Link>
-                    <Link to='/register' className='Pricing_container-card'>
-                        <div className='Pricing_container-cardInfo'>
-                            <div className='icon'>
-                                
+                        </Link>
+                        <Link to='/SignUp' className='pricing__container-card'>
+                            <div className='pricing__container-cardInfo'>
+                                <div className='icon'>
+                                    <FaFireAlt/>
+                                </div>
+                                <h3>Member</h3>
+                                <h4>$25</h4>
+                                <h5>per year</h5>
+                                <ul className='pricing__container-features'>
+                                    <li>Free Activities</li>
+                                    <li>Merchants Preferential</li>
+                                </ul>
+                                <Button buttonSize='btn--wide' buttonColor='primary'>
+                                    Get this
+                                </Button>
                             </div>
-                            <h3>AUCSSMember</h3>
-                            <h4>$25</h4>
-                            <p>Per Year</p>
-                            <ul className='Pricing_container-features'>
-                                <li>商家折扣</li>
-                                <li>会员专属铭牌</li>
-                                <li>AUCSS活动免费参与</li>
-                            </ul>
-                            <Button buttonSize='btn--wide' buttonColor='primary'>CHOOSE</Button>
-                        </div>
-                    </Link>
-                    <Link to='/register' className='Pricing_container-card'>
-                        <div className='Pricing_container-cardInfo'>
-                            <div className='icon'>
-                                
+                        </Link>
+                        <Link to='/SignUp' className='pricing__container-card'>
+                            <div className='pricing__container-cardInfo'>
+                                <div className='icon'>
+                                    <FaFire/>
+                                </div>
+                                <h3>Member</h3>
+                                <h4>$60</h4>
+                                <h5>per 3 year</h5>
+                                <ul className='pricing__container-features'>
+                                    <li>Free Activities</li>
+                                    <li>Merchants Preferential</li>
+                                </ul>
+                                <Button buttonSize='btn--wide' buttonColor='primary'>
+                                    Get this
+                                </Button>
                             </div>
-                            <h3>AUCSSMember</h3>
-                            <h4>$12.99</h4>
-                            <p>Per Semester</p>
-                            <ul className='Pricing_container-features'>
-                                <li>商家折扣</li>
-                                <li>会员专属铭牌</li>
-                                <li>AUCSS活动免费参与</li>
-                            </ul>
-                            <Button buttonSize='btn--wide' buttonColor='primary'>CHOOSE</Button>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </>
-    );
+    )
 }
 
 export default Member;
