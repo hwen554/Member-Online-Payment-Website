@@ -5,7 +5,7 @@ import { FaFireAlt } from 'react-icons/fa';
 
 import {Button} from './Button';
 
-zxhzxhzxhzxh
+zxhzxhzxh
 function Member(){
     return (
         <div>
